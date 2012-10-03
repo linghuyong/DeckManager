@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dependence", "dependence", "{01E1D29A-E3DE-4115-9B2A-17C391171685}"
+	ProjectSection(SolutionItems) = preProject
+		GUI_WPF\AvalonDock.dll = GUI_WPF\AvalonDock.dll
+		DeckManager\Winista.HtmlParser.dll = DeckManager\Winista.HtmlParser.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "DeckManager\Core.csproj", "{5F8A8BE4-C42F-4150-8931-49673214340B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_WPF", "GUI_WPF\GUI_WPF.csproj", "{765C0EA1-D4C0-4F36-91FE-770B76A11904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wiki", "wiki", "{02A58CAB-2583-4D4C-9894-C370E877D8C3}"
+	ProjectSection(SolutionItems) = preProject
+		术语表.txt = 术语表.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8A8BE4-C42F-4150-8931-49673214340B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8A8BE4-C42F-4150-8931-49673214340B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8A8BE4-C42F-4150-8931-49673214340B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8A8BE4-C42F-4150-8931-49673214340B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765C0EA1-D4C0-4F36-91FE-770B76A11904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765C0EA1-D4C0-4F36-91FE-770B76A11904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765C0EA1-D4C0-4F36-91FE-770B76A11904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765C0EA1-D4C0-4F36-91FE-770B76A11904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

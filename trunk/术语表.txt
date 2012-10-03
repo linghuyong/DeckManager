@@ -1,0 +1,5 @@
+CardRepository 是程序的全局Card池，所有Card实例都是由它创建的，踏管理着Card的生命周期。
+ImageRepository 全局Card图片的Image池，同样管理Image的生命周期，图片的异步加载内存管理靠它。
+Deck 牌组，由用户自己选的一套牌组。
+DeckManager 管理Deck的类。
+CardIndexHelper 卡牌索引帮手，用来提供给底层ui索引卡牌的接口，以供选牌。
